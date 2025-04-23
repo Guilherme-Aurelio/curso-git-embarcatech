@@ -1,0 +1,15 @@
+mkdir curso-git-embarcatech
+cd curso-git-embarcatech
+git init
+git config user.name "Guilherme-Aurelio"
+git config user.email "guilhermeaurelio65@gmail.com"
+echo "Guilherme Aurélio - Matricula: 08405078444/ 20251ZL00130139" > dados.txt
+git add dados.txt
+git commit -m "Criação do arquivo com nome e matrícula"
+git remote add origin https://github.com/Guilherme-Aurelio/curso-git-embarcatech.git
+git branch -M main
+git push -u origin main
+nano comandos.txt
+git add comandos.txt
+git commit -m "Criação do arquivo com os comandos utilizados"
+git push
